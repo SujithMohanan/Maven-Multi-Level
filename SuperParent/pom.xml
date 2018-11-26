@@ -36,7 +36,7 @@
 
 	<!-- Profile Based Dependency -->
 	<profiles>
-		<!-- For Cloudera -->
+		<!-- For 5.1.2 version -->
 		<profile>
 			<id>newSpring</id>
 			<activation>
@@ -56,7 +56,7 @@
 			</properties>
 		</profile>
 
-		<!-- For HortonWorks -->
+		<!-- For 4.3.20 -->
 		<profile>
 			<id>oldSpring</id>
 			<dependencyManagement>
